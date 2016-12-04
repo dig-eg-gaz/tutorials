@@ -159,7 +159,7 @@ Furthermore, it's possible to reference issues by their number!  Simply writing 
 
 Pull requests are one of the most important parts of GitHubs web interface.  Really, it doesn't do anything special behind the scenes.  It would be roughly the same as using `git merge` or `git rebase` through the command-line; what it does allow for, however, is centralized review.
 
-### Refernecing
+### Referencing
 
 Pull Requests can [reference](https://github.com/nasa/openmct/pull/1335) issues, showing a clear connection between issues and pull requests, just like issues can.
 
