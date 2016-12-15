@@ -23,6 +23,6 @@ Once you copy the data and paste it into Excel, highlight it and click on the In
 
 Check the boxes in the PivotTable Fields section on the right of the screen. This will order all of the individual days into months. This won't be that useful for other types of information, but PivotTables are great for numbers. Finally, highlight the PivotTable and click on the Insert tab, then on PivotChart.
 
-![PivotChart][PivotChart]  
+![PivotChart][PivotChart.png]  
 
 This should be the final product. There are many other ways to use data from XPath, but PivotTable is a useful tool to do so.
