@@ -3,7 +3,7 @@ layout: page
 title: Making Graphs Out of XPath Data
 author: JustinEsteve
 ---
-###Creating Tables in Microsoft Word####  
+###Creating Tables in Microsoft Word  
 
 After saving XPath data and opening it in Microsoft Word, find and click the Replace option under the Editing section of the Home tab.  
 
@@ -15,7 +15,7 @@ After replacing text, highlight all of the data. Then click the Insert tab and T
 
 ![FinishedTable][FinishedTable.png]  
 
-###Inputting Tables into Excel###  
+###Inputting Tables into Excel  
 
 Once you copy the data and paste it into Excel, highlight it and click on the Insert Tab. Then, click PivotTable and click ok. This should create a screen like this:  
 
