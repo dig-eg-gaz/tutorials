@@ -1,6 +1,7 @@
 ---
 title: Tutorial for Searching XML Files Using XPath
 author: Dante Grieco
+---
 1. The first step for running a query on your desired XML files is to first
 determine the scope of your search. Decide which XML files you want to search
 and then open them in the Oxygen XML editor.

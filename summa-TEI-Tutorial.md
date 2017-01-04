@@ -1,4 +1,5 @@
-# Ti# Tilayout: page
+---
+layout: page
 subheadline: "Celita Summa"
 title: "A Tutorial on TEI"
 teaser: "How to get started with TEI tagging."
@@ -8,13 +9,11 @@ categories:
   - TEI
   - tagging
   - formatting
-  
 author: CelitaSumma <!--- all one word --->
 tags:
   - tutorials
   - TEI
 header: no
-
 ---
 In order to get started TEI tagging the text of the Egyptian Gazette,
 it is necessary to first understand the importance of TEI. So far, the
@@ -33,7 +32,7 @@ and highlight the text you wish to tag. Input Command+E and a box will
 pop up on the screen. In this box, specify which tag you wish to input.
 For example, division would be "div," paragraph would be "p," headers
 would be "head," place names would be "placeName," and person names
-would be "persName." 
+would be "persName."
 
 In the text, a header will be wrapped as <head>"Insert header here"</div>.
 This helps to wrap the content and put it in a format the computer
