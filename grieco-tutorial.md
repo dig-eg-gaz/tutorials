@@ -14,4 +14,3 @@ query box or XQuery Builder will return all the "divs" in the scope of XML files
 searched.
 4. Search through your elements list at the bottom of Oxygen to find the specific
 element that will lead you to your desired piece of information.
----

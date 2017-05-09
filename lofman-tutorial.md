@@ -47,7 +47,7 @@ Git and Github perform version control; they allow for fast and painless branchi
 
 Git is a command-line tool that software developers use to manage their software. It works using the `git` command in the terminal.  Typing either `man git` or `git --help` will provide an overview of how to use git.
 
-![Commandline: `git --help`](git-cli_help.png)
+![Commandline: `git --help`](lofman-git-cli_help.png)
 
 You can get more information on a specific command with `git <command> --help`.  For example, `git status --help`, `git add --help`, `git commit --help`, and `git remote --help`.
 
@@ -60,7 +60,7 @@ Command-line git enforces a general workflow:
 ~$ git commit
 ```
 
-![Workflow of git](git-cli_status-add-status.png)
+![Workflow of git](lofman-git-cli_status-add-status.png)
 
 `git status` shows the user what's going on in their files.  The red files are files that have never been tracked by git before.  You have to add them with `git add <filename or filenames>` for git to know you want to track them.  Once you have added a file, it goes into the staging area: this is where you add the specific files or lines you actually want to commit to the history, with a commit message that describes the changes you have made.  Any files that have been tracked in the history will show up in `git status` when you have changed them, making it extremely trivial to know when you have changed something.
 
@@ -125,7 +125,7 @@ While this tense appears rude at first, it produces more descriptive, shorter, e
 
 Look at this commit message:
 
-![A good commit](github_commit-good-example.png)
+![A good commit](lofman-github_commit-good-example.png)
 
 From this commit you get a short, descriptive summary in the proper tense, and an extended description that lets you know exactly what has changed without needing to open the files.  Most importantly, it clearly shows **why** the commit exists in the first place:
 
@@ -133,7 +133,7 @@ From this commit you get a short, descriptive summary in the proper tense, and a
 
 In conclusion, each commit gives a small summary, but also a longer description that fully documents the changes made.  This description is key in tracking where issues come from and **_why_** someone made certain changes or decisions.
 
-![Github Commit dialog](github_commit-upload.png)
+![Github Commit dialog](lofman-github_commit-upload.png)
 
 Make sure to write custom commit messages on GitHub as well!  Leaving the default message clutters the [history](https://github.com/dig-eg-gaz/content/commits/master) with messages that don't offer any insight into changes made.
 
@@ -151,7 +151,7 @@ Creating good issues can actually help open-source projects immensely.
 
 Many projects use [lables](https://github.com/dig-eg-gaz/content/labels) to organize issues, especially once a project starts to accumulate a lot of issues.  [This project](https://github.com/nasa/openmct/issues) has over 300 issues, labels help them understand which issues are most important.
 
-![Referencing an Issue](github_issue-reference.png)
+![Referencing an Issue](lofman-github_issue-reference.png)
 
 Furthermore, it's possible to reference issues by their number!  Simply writing `#116`, for example, will add a comment to the issue like the one above, indicating that a reference was made to that issue, allowing for anyone following that issue to see the new one.
 
@@ -163,7 +163,7 @@ Pull requests are one of the most important parts of GitHub's web interface.  Re
 
 Pull Requests can [reference](https://github.com/nasa/openmct/pull/1335) issues, showing a clear connection between issues and pull requests, just like issues can.
 
-![Referencing an issue or pull request in GitHub](github_reference.png)
+![Referencing an issue or pull request in GitHub](lofman-github_reference.png)
 
 Always make appropriate references!  This makes sure that relevant information goes where it needs to go.
 
@@ -173,7 +173,7 @@ In fact, even individual commits can reference issues and pull requests, and Git
 
 **Pull requests are meant to simplify the review process.**  It is possible to directly review individual lines of code!
 
-![Reviewing a Github pull request](github_pr-review.png)
+![Reviewing a Github pull request](lofman-github_pr-review.png)
 
 These more formal review features make it far easier to suggest changes to be made before merging the pull request.  It also helps the author of the pull request keep track of the work their pull request needs before merging.
 
